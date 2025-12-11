@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vote Validator</title>
+  </head>
+  <body>
+    <div>
+      <h1>Vote Validator</h1>
+
+      <label>Name</label>
+      <input type="text" id="name" placeholder="name" />
+      <br /><br />
+
+      <label>Age</label>
+      <input type="number" id="age" placeholder="age" />
+      <br /><br />
+
+      <button onclick="vote()">Submit</button>
+      <p id="par"></p>
+    </div>
+
+    <style>
+      body {
+        background-image: url("A-Trial-for-Institutional-Sanctity.jpg");
+        align-items: center;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+      }
+      #par {
+        background-color: #fff;
+        color: black;
+        display: block;
+        width: 200px;
+        align-items: center;
+        align-content: center;
+        border-radius: 10px;
+      }
+
+      div {
+        width: 500px;
+        height: 250px;
+        backdrop-filter: blur(10px);
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+      }
+      button {
+        background-color: #fff;
+        color: black;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: rgb(245, 232, 152);
+      }
+    </style>
+    <script src="vote.js"></script>
+  </body>
+</html>
